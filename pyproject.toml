@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Download Python into your brains."
 authors = ["Brian Kohan <bckohan@gmail.com>"]
 license = "LICENSE"
-readme = "README.md"
+readme = "README.rst"
 packages = [{include = "learn_python"}]
 
 [tool.poetry.scripts]
@@ -12,6 +12,7 @@ doc = 'learn_python.doc:app'
 delphi = 'learn_python.delphi.tutor:delphi'
 register = 'learn_python.register:register'
 report = 'learn_python.register:report'
+module2 = 'learn_python.module2_basics:module2'
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"

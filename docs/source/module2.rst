@@ -1,3 +1,5 @@
+.. include:: refs.rst
+
 .. _module2:
 
 ====================
@@ -12,7 +14,7 @@ Module 2: The Basics
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Lessons:
 
    module2/part1.rst
    module2/part2.rst

@@ -1,11 +1,17 @@
 """
+..  youtube:: 5p5GrLd8FBI
+   :width: 70%
+   :align: center
+   :url_parameters: ?vq=hd1080
+
+|
+
 Python has dynamic typing - meaning a variable might hold anything!
 When you are not sure what a variable is you can use built-in function
 `type() <https://docs.python.org/3/library/functions.html#type>`_ to 
 find out!
 """
 from learn_python.module2_basics.lesson.part6_floating_point import *
-
 
 assert type(my_int) is int
 assert type(my_float) is float
